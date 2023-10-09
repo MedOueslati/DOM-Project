@@ -1,0 +1,59 @@
+body {
+  font-family: verdana, "Trebuchet MS", arial, tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 150px;
+  height: 300px;
+}
+.product {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+#product1 {
+  background-color: Tomato;
+  color: white;
+}
+#product2 {
+  background-color: DodgerBlue;
+  color: white;
+}
+#product3 {
+  background-color: Orange;
+  color: white;
+}
+.cart {
+  border: 1px solid #333;
+  padding: 10px;
+  margin: 10px;
+}
+.cart-header {
+  font-weight: bold;
+}
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  padding: 10px;
+}
+.like-button {
+  color: red;
+  height: 36px;
+  padding-bottom: 5px;
+}
+.btn-sm {
+  margin-left: 50px;
+}
+.mybtn {
+  padding-top: 50px;
+}
